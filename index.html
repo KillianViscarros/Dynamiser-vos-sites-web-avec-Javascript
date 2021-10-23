@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css" />
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Jeu de dé</title>
+    </head>
+
+<body>
+    <div class="box-game">
+        <div class="player-0-box point">
+            <div class="player-name" id="id-0">Joueur 1</div>
+            <div class="player-score" id="score-0">0</div>
+            <div class="player-turn-box">
+                <div class="player-turn-label">Score</div>
+                <div class="player-turn-score" id="turn-0">0</div>
+            </div>
+        </div>
+
+        <div class="player-1-box">
+            <div class="player-name" id="id-1">Joueur 2</div>
+            <div class="player-score" id="score-1">0</div>
+            <div class="player-turn-box">
+                <div class="player-turn-label">Score</div>
+                <div class="player-turn-score" id="turn-1">0</div>
+            </div>
+        </div>
+
+        <button class="btn-new"><i class="fas fa-plus"></i>Rejouer</button>
+        <button class="btn-roll"><i class="fas fa-dice"></i>Lancer</button>
+        <button class="btn-hold"><i class="fas fa-share"></i>Valider</button>
+
+        <img src="images/dice-3.png" alt="Dé" class="dice">
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
